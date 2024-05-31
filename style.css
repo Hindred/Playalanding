@@ -8,7 +8,7 @@ body {
     background-color: #eee;
 }
 .hero{
-    width: 1280px;
+    max-width: 1280px;
     box-sizing: content-box;
 }
 .tropical {
@@ -37,11 +37,9 @@ body {
     padding: 30px;
     background-color: white;
 }
-#playa{
+.playa{
     background-color: white;
-    width: 1280px;
-    margin: 40px auto;
-    padding: 45px;
+    max-width: 1280px;
 }
 .playatexto{
     font-size: 50px;
@@ -51,7 +49,7 @@ body {
     font-weight:200;
     font-size: 50px;
 }
-#playachicos{
+.playachicos{
     width: 100%;
 }
 .infoplaya{
@@ -68,7 +66,7 @@ body {
     display: inline-block;
     margin-left: 10px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
 }
 .sectionimage{
     width: 100%;
@@ -93,7 +91,7 @@ body {
     display: inline-block;
     font-weight: bold;
 }
-#productosnuevos{
+.productosnuevos{
     width: 1280px;
     height: auto;
 }
@@ -115,6 +113,40 @@ body {
 }
 
 .card-title{
-    font-weight: bold;
     font-size: 18px;
+}
+.textotitular{
+    padding: 40px;
+}
+.card-body{
+    border: 1px solid #eee;
+}
+.repad{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 576px) {
+    .textotitular{
+        padding: 20px;
+    }
+    .camping1{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .camping2{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .titulitos{
+        margin-left: 10px;
+    }
+    
+    .repad{
+        padding: 0;
+    }
 }
