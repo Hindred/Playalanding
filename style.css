@@ -1,152 +1,216 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
 }
+
 body {
-    background-color: #eee;
+  background-color: #eee;
 }
-.hero{
-    max-width: 1280px;
-    box-sizing: content-box;
-}
+
 .tropical {
-    width: 100%;
-    padding: 0;
-    z-index: 1;
+  width: 100%;
+  padding: 0;
+  z-index: 1;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 1280px;
 }
 
 .verano-text {
-    background-color: white;
-    width: calc(100% - 80px);
-    padding: 40px 60px;
-    position: relative;
-    z-index: 2;
-    margin-top: -40px;
-    text-align: center;
-    font-size: 20px;
+  background-color: white;
+  width: calc(100% - 80px);
+  padding: 40px 60px;
+  position: relative;
+  z-index: 2;
+  margin-top: -40px;
+  font-size: 20px;
 }
+
 .display-6 {
-    color: whitesmoke;
-    font-weight: normal;
-}
-.info{
-    margin-top: 30px;
-    width: 1280px;
-    padding: 30px;
-    background-color: white;
-}
-.playa{
-    background-color: white;
-    max-width: 1280px;
-}
-.playatexto{
-    font-size: 50px;
-    font-weight: 200;
-}
-.vamosplaya{
-    font-weight:200;
-    font-size: 50px;
-}
-.playachicos{
-    width: 100%;
-}
-.infoplaya{
-    background-color: white;
-}
-.generos{
-    display: flex;
-    text-decoration: none;
-    color: rgb(184, 176, 176);
-    font-weight: bolder;
-    font-size: 12px;
-}
-.titulitos{
-    display: inline-block;
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 13px;
-}
-.sectionimage{
-    width: 100%;
-}
-.gap{
-    border-bottom: rgb(51, 236, 67) solid 4px;
-}
-.titulares{
-    margin-top: 15px;
-    padding: 25px;
-}
-.etiqueta2{
-    text-decoration: none;
-    color: #c0b9b9;
-    font-size: 12px;
-    margin-left: -10px;
-    margin-top: 10px;
-}
-.verproductos{
-    padding-bottom: 30px;
-    margin-left: 20px;
-    display: inline-block;
-    font-weight: bold;
-}
-.productosnuevos{
-    width: 1280px;
-    height: auto;
-}
-.card{
-    border: 1px solid #eee;
-    border-top: transparent;
-    border-radius: 0%;
-    width: 100%;
-}
-.h4{
-    font-weight: 300;
-    font-size: 30px;
-    margin-top: 5px;
-    padding-left: 30px;
-}
-.h5{
-    padding-left: 30px;
-    font-size: 14px;
+  color: whitesmoke;
+  font-weight: normal;
 }
 
-.card-title{
-    font-size: 18px;
+.info {
+  margin-top: 30px;
+  width: 1280px;
+  padding: 30px;
+  background-color: white;
 }
-.textotitular{
-    padding: 40px;
+.hero {
+  max-width: 1280px;
+  box-sizing: content-box;
 }
-.card-body{
-    border: 1px solid #eee;
-}
-.repad{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 3rem;
-    padding-right: 1rem;
+.playa {
+  background-color: white;
+  max-width: 1280px;
 }
 
+.playatexto {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.vamosplaya {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.playachicos {
+  width: 100%;
+}
+
+.infoplaya {
+  background-color: white;
+}
+
+.generos {
+  display: flex;
+  text-decoration: none;
+  color: rgb(184, 176, 176);
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.titulitos {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.sectionimage {
+  width: 100%;
+}
+
+.gap {
+  border-bottom: rgb(51, 236, 67) solid 4px;
+}
+
+.titulares {
+  margin-top: 15px;
+  padding: 25px;
+}
+
+.etiqueta2 {
+  text-decoration: none;
+  color: #c0b9b9;
+  font-size: 12px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.verproductos {
+  padding-bottom: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.productosnuevos {
+  width: 1280px;
+  height: auto;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-top: transparent;
+  border-radius: 0%;
+  width: 100%;
+}
+
+.h4 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 5px;
+  padding-left: 30px;
+}
+
+.h5 {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.textotitular {
+  padding: 40px;
+}
+.card-body {
+  border: 1px solid #eee;
+}
+
+.repad {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+}
+@media (max-width: 960px) {
+  .verano-text {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  .verano-text {
+    width: 100%;
+  }
+}
 @media (max-width: 576px) {
-    .textotitular{
-        padding: 20px;
-    }
-    .camping1{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-    .camping2{
-        display: flex;
-        justify-content: center;
-        margin-top: 0;
-    }
-    .titulitos{
-        margin-left: 10px;
-    }
-    
-    .repad{
-        padding: 0;
-    }
+  .tropical {
+    width: 120%;
+    margin-left: -35px;
+    z-index: 1;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .verano-text {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: -21px;
+  }
+
+  .textotitular {
+    padding: 20px;
+  }
+
+  .camping1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .camping2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .titulitos {
+    margin-left: 10px;
+  }
+
+  .repad {
+    padding: 0;
+  }
+  .vamosplaya {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .etiqueta2 {
+    padding: 0;
+  }
+  .card-title {
+    font-size: 17px;
+  }
 }
